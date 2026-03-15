@@ -77,7 +77,7 @@ document[imgName].src = imgOff;}
 <table bgcolor="#FFFFFF" border="0" cellpadding="1" cellspacing="0" height="200" width="100%">
 <tbody>
 <tr>
-<td align="left" valign="center" width="480"> <img src="Logo6.png" height="200" width="314"> </td>
+<td align="left" valign="center" width="480"> <img src="Logo6.png" height="200" width="399"> </td>
 
 <!--<td align="left" valign="bottom" width="auto"></td>-->
 
@@ -302,7 +302,7 @@ Welcome to the Machine
 
 <p class=MsoNormal>Back in 2024, while researching the various units on the market, I stumbled upon a YouTube podcast episode of TSG Multimedia where John Abatecola interviewed Seth Neumann of Model Railroad Control Systems. MRCS, in California, had begun importing the line of MTB switch machines from Europe. I was fascinated by their tiny size, their simplicity, and also their low cost. The total range of motion is adjustable to account for different scales - they are preset for HO.</p>
 
-<p class=MsoNormal>The basic MP1 model had the exact features I wanted so I ordered 11 of them. They were on backorder at the time but mine shipped after about 2 weeks and I had them shortly thereafter.</p>
+<p class=MsoNormal>The basic MP1 model had the exact features I wanted so I ordered 11 of them. Including shipping, the bill was a hair under $200 US - very acceptable for 11 machines. They were on backorder at the time but mine shipped after about 2 weeks and I had them shortly thereafter.</p>
 
 <p class=MsoNormal></p>
 
@@ -312,6 +312,8 @@ Welcome to the Machine
 <img width=750 height=452 src="MP1 750.png"></p>
 
 <p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>I tested all of them upon arrival and they all worked perfectly.</p>
 
 <p class=MsoNormal>Before running bus wires or doing any other work under the layout, I needed to know the exact position of each switch machine so I could avoid any conflicts. The easiest solution was to actually install them!</p>
 
@@ -403,6 +405,54 @@ Wiring Organization
 <p class=MsoNormal>And yes, I buy P-clamps and cable ties by the bag from Amazon!</p>
 
 <p class=MsoNormal>I use a separate drawing layer in AnyRail to map and number the locations of track feeder points, switch machines, terminal blocks, breakout boards, etc. I also have a spreadsheet where every wire between those objects is identified by its source, destination, colour, and function if appropriate, right down to the specific terminal(s) it connects to. In effect, this is the equivalent of a gigantic circuit schematic diagram. Is this overkill? Perhaps, but I like the peace of mind it gives me. For example, if I ever need to know where the wire goes from pin 6 on the back of terminal block TB2, I can look it up, and find out it runs to pin 5 on switch machine T7. Hopefully, I will rarely need to use this information but I have it handy.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal><a name="_Hlk109660042"><b><i><span style='font-size:14.0pt;
+line-height:107%'>
+Switches Switching Switches
+</span></i></b></a></p>
+
+<p class=MsoNormal>With 11 machine-operated turnouts, I had chosen to use two control panels. One panel handling the 8 turnouts in and adjacent to the Southgate yard, and one panel for the 3 turnouts on the Saugeen spur.</p>
+
+<p class=MsoNormal>The MP1 machines have 6 wire connection points. They use 3 wires for motion control - a +12V common power feed and 2 wires for direction control (whichever one is grounded determines direction of throw). They can also switch an auxilliary common connection to 1 of 2 other connections (again depending on direction) - these can be used as desired by the user. I connected the +12V common power feed directly to my 12V bus. I use the machine's auxilliary contacts to indicate turnout status on my control panels via LEDs. I jumper the main MP1 common to the auxilliary common with an 825K-ohm resistor (so my panels do not need resistors in them for the LEDs). Bottom line is that each switch machine connects to the panel with 4 wires.</p>
+
+<p class=MsoNormal>We found some 22-gauge, 2-wire, stranded, jacketed cable at a discount store for under 10 cents per foot. I bought 200 feet but probably got 250. I used well under half of it to run cables from the 11 switch machines to their relevant control panel area. There, these cables terminate in dual-row terminal blocks mounted near the back of the shelf (refer to photo above).</p>
+
+<p class=MsoNormal>I wanted the panels to be easily removeable from the layout. With so many wires involved I decided to use IDC ribbon cables and sockets for the MP1 connections and terminal blocks for the other wires. I designed simple circuit boards for this and sent the files off to be made into bare boards. Partly assembled ones shown below.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center'>
+<img width=700 height=454 src="IDC boards.png"></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>The board on the left mounts to the back of the Southgate panel. The board on the right mounts under the shelf. The two boards are identical and serve both purposes. All soldering was, of course, done at the workbench. I also designed the board so one could be cut in half and the two halves used for the smaller Saugeen panel. The ribbon cables and sockets came from Amazon. The terminal blocks are the same ones used on my breakout boards.</p>
+
+<p class=MsoNormal>The control panels are simple boxes, with a 12mm plywood frame, 5mm plywood back, and an inset face panel. I was going to use 1/8" polycarbonate, painted on the inside, for the face panels, but...while wandering around Princess Auto one day, came across some 5" x 12" carbon fibre panels that were 1/8" thick. One piece would make both of my panels so I grabbed one. At $12 it wasn't cheap but I love the look of carbon fibre. What I don't love, however, is machining it... I killed a few saw blades and drill bits, and that work proceeds slowly.</p>
+
+<p class=MsoNormal>I mounted the toggle switches and 3mm LEDs to the front panel, and then began the lengthy job of soldering all the wires in place between the front and rear panels. I guess the best term for the result would be 'organized chaos'...</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center'>
+<img width=700 height=670 src="panel inside.png"></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>Assembly of the control panel box is a simple case of passsing the circuit board through the rear and screwing it in place, then attaching the front panel.</p>
+
+<p class=MsoNormal>I mounted the finished unit under the front rail of the shelf at a slight upward-facing angle.</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal align=center style='text-align:center'>
+<img width=700 height=574 src="finished panel.png"></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>The toggles for the turnouts are SPDT units that connect the appropriate wire from the MP1 to ground. I used 3mm LEDs - green for the primary route and red for the secondary. The toggle labelled 'TRK' and 'PRG' is a DPDT, center off switch for the isolated shop track,allowing it to be connected to the main DCC bus, used as the programming track, or disconnected entirely. The graphics are just self-adhesive white vinyl made with my PC and vinyl cutter.</p>
 
 <p class=MsoNormal>&nbsp;</p>
 
